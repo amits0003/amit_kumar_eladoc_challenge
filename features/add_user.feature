@@ -5,4 +5,4 @@ Feature: Add User
     When I add a new user with the following details
       | First Name | Last Name | User Name | Password | Customer    | Role   | E-mail            | Cell Phone |
       | Amit       | Kumar       | novak   | password | Company AAA | Admin  | amit.kr@gmail.com | 8234525355 |
-    Then I should see the user "Amit Kumar" in the table
+    Then I should see the user "novak" in the table

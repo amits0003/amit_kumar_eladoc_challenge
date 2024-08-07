@@ -10,8 +10,7 @@ def step_delete_user(context, username):
     delete_button = wait.until(EC.element_to_be_clickable(
         (By.XPATH, f'//td[contains(text(), "{username}")]/following-sibling::td/button[@ng-click="delUser()"]')))
     delete_button.click()
-    alert = wait.until(EC.alert_is_present())
-    alert.accept()
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//button[contains(text(),"OK")]'))).click()
 
 
 @then('I should not see the user "{username}" in the table')

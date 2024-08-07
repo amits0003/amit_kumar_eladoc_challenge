@@ -34,3 +34,22 @@ This project automates the webtable application available at http://www.way2auto
 
 ## Project Structure
 
+| amit_kumar_teledoc_challenge
+    -|- features
+        -|- steps
+            -|- add_user_steps.py
+            -|- common_steps.py
+            -|- delete_user_steps.py
+        -|- add_user.feature
+        -|- delete_user.feature
+        -|- environment.py
+    -|- requirements.txt
+    -|- venv
+
+
+
+
+
+
+
+

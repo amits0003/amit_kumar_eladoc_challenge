@@ -45,6 +45,17 @@ This project automates the webtable application available at http://www.way2auto
         -|- environment.py
     -|- requirements.txt
     -|- venv
+- **amit_kumar_teledoc_challenge ** Root repo containing all codes, env files and venv
+- **features/**: Contains all the feature files and step definitions.
+  - **steps/**: Contains Python files with step definitions.
+    - `add_user_steps.py`: Step definitions for adding a user.
+    - `common_steps.py`: Common step definitions shared across feature files.
+    - `delete_user_steps.py`: Step definitions for deleting a user.
+  - `add_user.feature`: Feature file for adding a user.
+  - `delete_user.feature`: Feature file for deleting a user.
+- **environment.py**: Contains environment-specific settings or hooks.
+- **requirements.txt**: Lists the required Python packages for the project.
+- **venv/**: Virtual environment directory.
 
 
 

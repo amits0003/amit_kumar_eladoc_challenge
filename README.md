@@ -1,1 +1,1 @@
-# amit_kumar_eladoc_challenge
+# amit_kumar_teladoc_challenge
